@@ -6,6 +6,8 @@
 本專案使用心血管風險資料集 (`heartRisk.csv`)，以 **多元線性回歸 (Multiple Linear Regression)** 預測個人心血管風險分數（Risk），並完整遵循 **CRISP-DM 流程**進行資料分析、建模與評估。  
 
 資料來源：自訂模擬心血管資料集（10 個特徵）  
+https://www.kaggle.com/datasets/mokar2001/ascvd-heart-risk
+<img width="1490" height="1221" alt="image" src="https://github.com/user-attachments/assets/7e04ec4e-8a16-49a9-83de-240e26823448" />
 
 ---
 
@@ -47,7 +49,7 @@
 ## GPT 與 NotebookLM 輔助內容
 - **GPT 輔助內容**：提供程式碼範例、流程規劃、特徵選擇與可視化建議  
 - **NotebookLM 摘要**：透過網路研究，多元線性回歸需注意特徵標準化、類別型特徵轉換、殘差檢查，並可用 Lasso 進行特徵篩選  
-
+https://notebooklm.google.com/notebook/2e63ffa5-33fd-49c4-a8eb-b20e13511c2d
 ---
 
 ## 程式碼結構
