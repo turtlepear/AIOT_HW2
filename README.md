@@ -18,7 +18,9 @@
 ### 2. Data Understanding
 - 讀取 CSV 資料，檢查缺失值、欄位型態  
 - 探索資料統計特性與特徵相關性  
-- 可視化相關性熱圖發現 `Age`、`Systolic` 與 Risk 相關性較高  
+- 可視化相關性熱圖發現 `Age`、`Systolic` 與 Risk 相關性較高
+<img width="714" height="617" alt="image" src="https://github.com/user-attachments/assets/ae70483d-3b39-436b-8de3-89dc98c6b4a7" />
+  
 
 ### 3. Data Preparation
 - 選擇特徵：`isSmoker`, `isDiabetic`, `Age`, `Systolic`  
@@ -31,19 +33,14 @@
 
 ### 5. Model Evaluation
 - 指標：
-  - MSE: 17.35  
-  - RMSE: 4.17  
-  - MAE: 3.25  
-  - R²: 0.78  
+  - MSE  = 82.1681
+  - RMSE = 9.0647
+  - MAE  = 7.1494
+  - R²   = 0.6952 
 - 實際值 vs 預測值散點圖，顯示模型預測效果良好  
-- 殘差分析：近似常態且均勻分布於 0 附近  
+- 殘差分析：近似常態且均勻分布於 0 附近   
+<img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/c7994e4d-2c02-4715-b064-88d7b05d98f2" />
 
-### 6. Confidence Interval
-- 使用 `statsmodels.OLS()` 計算 95% 信賴區間  
-- 預測圖加上灰色誤差線表示信賴區間  
-
-### 7. Deployment
-- 模型可儲存為 `heartRisk_model.pkl`，用於後續部署或即時預測  
 
 ---
 
