@@ -51,3 +51,4 @@
 ---
 
 ## 程式碼結構
+https://colab.research.google.com/drive/1rSGIUb3wJsD9FC_aXredYL0q2CjnLyxJ?usp=sharing
