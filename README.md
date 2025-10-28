@@ -113,7 +113,8 @@
 - 模型表現中上，解釋度 R² 約 0.70  
 - 實際值 vs 預測值散點圖，顯示模型預測效果良好  
 - 殘差分析：近似常態且均勻分布於 0 附近   
-<img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/c7994e4d-2c02-4715-b064-88d7b05d98f2" />
+<img width="686" height="547" alt="image" src="https://github.com/user-attachments/assets/57587618-4e81-4e47-935f-41b72554841b" />
+<img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/e579dd47-5082-441b-9662-1f72d0e33ee2" />
 
 
 ---
