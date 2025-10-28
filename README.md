@@ -56,7 +56,7 @@
 - 類別特徵已為 0/1 形式，方便直接使用於回歸模型  
 
 📈 **相關性熱圖（Correlation Heatmap）**
-<img width="714" height="617" alt="image" src="https://github.com/user-attachments/assets/ae70483d-3b39-436b-8de3-89dc98c6b4a7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ae70483d-3b39-436b-8de3-89dc98c6b4a7" />
 
 觀察結果：
 - `Age` 與 `Systolic` 對 `Risk` 具強相關性  
@@ -91,12 +91,18 @@ model = LinearRegression()
 model.fit(X_train_scaled, y_train)
 
 
-### 5. Model Evaluation
-- 指標：
-  - MSE  = 82.1681
-  - RMSE = 9.0647
-  - MAE  = 7.1494
-  - R²   = 0.6952 
+### 5️⃣ Model Evaluation
+| 指標 | 數值 |
+|------|------|
+| MSE  | 82.1681 |
+| RMSE | 9.0647 |
+| MAE  | 7.1494 |
+| R²   | 0.6952 |
+
+🔹 **實際 vs 預測值散點圖**
+<img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/c7994e4d-2c02-4715-b064-88d7b05d98f2" />
+
+- 模型表現中上，解釋度 R² 約 0.70  
 - 實際值 vs 預測值散點圖，顯示模型預測效果良好  
 - 殘差分析：近似常態且均勻分布於 0 附近   
 <img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/c7994e4d-2c02-4715-b064-88d7b05d98f2" />
