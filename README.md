@@ -89,6 +89,7 @@
 from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(X_train_scaled, y_train)
+```
 
 
 ### 5️⃣ Model Evaluation
