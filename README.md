@@ -83,14 +83,21 @@
 ---
 
 ### 4️⃣ Modeling
-使用 `scikit-learn` 建立多元線性回歸模型：
+- 使用 `scikit-learn` 建立多元線性回歸模型  
 
-```python
-from sklearn.linear_model import LinearRegression
-model = LinearRegression()
-model.fit(X_train_scaled, y_train)
-```
+📈 **模型截距與係數：**
 
+| Feature    | Coefficient | 說明 |
+|------------|-------------|------|
+| Intercept  | 9.56        | 基準風險分數 |
+| isSmoker   | 8.52        | 吸菸者風險增加約 8.5 分 |
+| isDiabetic | 10.83       | 糖尿病患者風險顯著上升 |
+| Age        | 10.57       | 年齡每增加一個標準化單位，風險增加約 10.6 分 |
+| Systolic   | 6.60        | 收縮壓每增加一個標準化單位，風險增加約 6.6 分 |
+
+> 💡 注意：`Age` 與 `Systolic` 因為經過標準化，所以係數代表「標準化後單位變化對 Risk 的影響」。  
+
+---
 
 ### 5️⃣ Model Evaluation
 | 指標 | 數值 |
